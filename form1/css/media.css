@@ -1,0 +1,48 @@
+/* media query mobile */
+
+/* Galaxy Note 3 - MotoG4 - Galaxy S5 */
+/* Ipad (768 x 1024) */
+/* Iphone 5/SE (320 x 568) */
+/* Iphone 6 7 8 (375 x 667) */
+/* Iphone plus (414 x 736) */
+/* Iphone X (375 x 812) */
+/* Galaxy Fold (280 x 653) */
+/* Screen (360 x 640) (411 x 731) (411 x 823) */
+
+@media only screen and (max-width: 2000px) {
+    input {width: 26em;}
+}
+
+@media only screen and (max-width: 1050px) {
+    input {
+        width: 35em;}
+}
+
+@media only screen and (max-width: 1025px) {
+    input {
+        width: 20em;}
+}
+
+@media only screen and (max-width: 545px) {
+    input {width: 18em;}
+}
+
+@media only screen and (max-width: 321px) {
+    input {
+        width: 14.9em;}
+}
+
+@media only screen and (max-width: 1025px) {
+    .title-form {
+        padding-top: 0.5em;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+        padding-bottom: 0.5em;
+        font-size: 1.6em;}
+}
+
+@media only screen and (max-width: 281px) {
+    #form {
+        top: 15em;
+    }
+}

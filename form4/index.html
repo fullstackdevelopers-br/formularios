@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap 5 Form4</title>
+  <!-- Bootstrap 4.3.1 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Css Import -->
+  <link rel="stylesheet" type="text/css" href="../form4/css/style.css">
+  <!-- Viewport  -->
+  <link rel="viewport" content="width=device-width, initial-scale=1">
+  <!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Startup 3 CSS (Styles for all blocks) -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- jQuery 3.3.1 -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body class="container mx-auto bg-warning vh-100 cover">
+  <div class="container my-auto position-relative pb-3">
+    <div class="d-block text-center mt-4">
+      <img class="img-fluid"
+        src="https://cdn.cloudflare.steamstatic.com/steam/apps/1098100/extras/FandS.png?t=1613050890" width="250"
+        height="auto" alt="Logo">
+    </div>
+    <div class="h1 text-white text-center pt-3 fw-bold">Cadastre-se!</div>
+    <form class="text-light row g-3 pt-3 border border-2 border-dark p-3">
+      <div class="col-md-6 pb-2">
+        <label class="mb-0" for="inputName" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Digite seu nome">
+      </div>
+      <div class="col-md-6 pb-2">
+        <label class="mb-0" for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu email @domain.com.br">
+      </div>
+      <div class="col-12 pb-2">
+        <label class="mb-0" for="inputAddress" class="form-label">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Endereço, Nº">
+      </div>
+      <div class="col-12 pb-2">
+        <label class="mb-0" for="inputAddress2" class="form-label">Endereço Secundário</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, Flat, Casa, etc.">
+      </div>
+      <div class="col-md-6 pb-2">
+        <label class="mb-0" for="inputCity" class="form-label">Cidade</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="Informe sua cidade">
+      </div>
+      <div class="col-md-3 pt-3">
+        <label for="inputState" class="form-label mb-0">Estado</label>
+        <select id="inputState" name="estado" class="form-select">
+          <option selected="" value="">Selecione o Estado (UF)</option>
+          <option value="Acre">Acre</option>
+          <option value="Alagoas">Alagoas</option>
+          <option value="Amapá">Amapá</option>
+          <option value="Amazonas">Amazonas</option>
+          <option value="Bahia">Bahia</option>
+          <option value="Ceará">Ceará</option>
+          <option value="Distrito Federal">Distrito Federal</option>
+          <option value="Espírito Santo">Espírito Santo</option>
+          <option value="Goiás">Goiás</option>
+          <option value="Maranhão">Maranhão</option>
+          <option value="Mato Grosso">Mato Grosso</option>
+          <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+          <option value="Minas Gerais">Minas Gerais</option>
+          <option value="Pará">Pará</option>
+          <option value="Paraíba">Paraíba</option>
+          <option value="Paraná">Paraná</option>
+          <option value="Pernambuco">Pernambuco</option>
+          <option value="Piauí">Piauí</option>
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+          <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+          <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+          <option value="Rondônia">Rondônia</option>
+          <option value="Roraima">Roraima</option>
+          <option value="Santa Catarina">Santa Catarina</option>
+          <option value="São Paulo">São Paulo</option>
+          <option value="Sergipe">Sergipe</option>
+          <option value="Tocantins">Tocantins</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="mb-0" for="inputZip" class="form-label">Cep</label>
+        <input type="text" class="form-control" id="inputZip" placeholder="Informe seu Cep">
+      </div>
+      <div class="col-md-6 pb-2">
+        <label class="mb-0" for="inputPassword4" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="inputPassword4"
+          placeholder="Crie uma senha com numeros e letras alfanumericos">
+      </div>
+      <div class="col-md-6 pb-2">
+        <label class="mb-0" for="inputPassword4" class="form-label">Confirmar Senha</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Confirme sua senha novamente">
+      </div>
+      <div class="col-12 pb-2">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Para continuar você deve aceitar os termos e condições se confia que suas informações inseridas neste
+            formulário são verdadeiras. Caso contrário, você não conseguira prosseguir!
+          </label>
+        </div>
+      </div>
+      <div class="d-inline-block mt-3 mx-3">
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+      </div>
+      <div class="d-inline-block mt-3">
+        <button type="reset" class="btn btn-danger">Cancelar</button>
+      </div>
+    </form>
+  </div>
+  <!-- Bootstrap 4.3.1 JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- Google maps JS API -->
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+  <!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <!-- Startup 3 JS (Custom js for all blocks) -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>

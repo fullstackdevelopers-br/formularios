@@ -1,0 +1,170 @@
+/******************************
+            ESTILO CSS
+ **********************************/
+
+* {
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+padding: 0px;
+}
+
+#body {
+background-image: url(https://raw.githubusercontent.com/fullstackdevelopers-br/formularios/main/form1/img/Darkweb1.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+}
+
+#body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+padding: 0;
+font-family: Arial;
+font-size: auto;
+color: white;
+}
+
+p {
+font-family: Poppins;
+font-size: 18px;
+text-align: center;
+font-style: italic;
+color: #fff;
+padding: 5px 8px 5px;
+}
+
+b {
+color: white;
+}
+
+ul li {
+margin: 0px;
+padding: 5px 3px;
+font-weight: 600;
+font-style: Poppins;
+list-style: none;
+color: rgb(255, 255, 255);
+background-color: transparent;
+}
+
+legend h2 {
+font-family: Arial;
+font-size: auto;
+color: white;
+background-color: transparent;
+text-shadow: 6px 5px 10px green;
+padding: 4px;
+}
+
+input {
+margin-top: 3px;
+margin-left: 2px;
+margin-right: 2px;
+margin-bottom: 5px;
+padding: 5px 6px;
+background-color: rgb(7, 6, 6);
+color: rgb(17, 207, 17);
+font-size: auto;
+font-family: monospace;
+font-weight: bold;
+border-color: green;
+text-transform: uppercase;
+width: 20em;
+}
+
+/* Seletores */
+
+#fundo-title {
+display: block;
+position: fixed;
+margin: 0;
+padding: auto;
+width: 100%;
+max-width: auto;
+max-height: auto;
+background-color: hsla(0, 1%, 2%, 0.9);
+z-index: 1;
+}
+
+#form {
+display: block;
+top: 12em;
+position: relative;
+width: auto;
+height: auto;}
+    div#form input {
+        backface-visibility: visible;
+        backdrop-filter: opacity(20%);}
+
+#buttons {
+display: block;
+width: auto;
+height: auto;
+text-align: center;
+}
+
+.button-env button {
+margin: 10px 10px 10px;
+padding: 10px;
+width: 100px;
+height: auto;
+}
+
+.button-env .b-one {
+background-color: rgb(22, 19, 19);
+color: rgb(255, 255, 255);
+font-family: Arial;
+font-size: larger;
+font-weight: bold;
+}
+
+.button-env .b-two {
+background-color: rgb(187, 23, 23);
+color: rgb(255, 255, 255);
+font-family: Arial;
+font-size: larger;
+font-weight: bold;
+}
+
+.title-form {
+padding-top: 0.5em;
+padding-left: 3.5em;
+padding-right: 3.5em;
+padding-bottom: 0.2em;
+font-family: Georgia;
+text-transform: uppercase;
+line-height: 1em;
+font-size: 3em;
+text-align: center;
+font-weight: 600;
+color: white;
+text-shadow: 5px 5px 5px green;
+background-color: transparent;
+border: none;
+border-radius: 10px;
+}
+
+.form-fieldset {
+border-color: green;
+border-radius: 20px;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+padding: 20px;
+max-width: 18%;
+max-height: auto;
+width: auto;
+height: auto;
+background-color: hsla(0, 1%, 5%, 0.9);
+}

@@ -1,0 +1,10 @@
+/***********************
+    Background-image
+***********************/
+.body {
+    background-image: linear-gradient(rgb(0, 2, 2), rgb(0, 5, 5), rgb(10, 10, 5));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

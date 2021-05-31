@@ -1,0 +1,13 @@
+/* #####################
+    
+        STYLE CSS
+    
+####################### */
+
+.cover {
+    background-image: url(../img/cover.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
