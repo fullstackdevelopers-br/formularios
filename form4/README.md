@@ -2,7 +2,7 @@
 
 **DESENVOLVEDOR FRONTEND**: Ezequiel Sousa<br>
 
-| 	 VERSÃO    |
+| 	VERSÃO |    |
 |-------|------|
 |2021   | 1.0  |
 
