@@ -20,4 +20,6 @@ Se você achar necessário alterar as informações ou inserir mais campos para 
 
 Para inserir o formulário no seu website, carregue os arquivos para a pasta raiz do seu projeto e faça as ligações necessárias para que o mesmo funcione.<br>
 
-&#8608; [Acesse para ver o formulário online aqui](http://formulario-net.42web.io/)
+&#8608; [Acesse para ver o formulário online aqui](http://formulario-net.42web.io/)<br>
+
+![Formulário para website](form3-village.png)
