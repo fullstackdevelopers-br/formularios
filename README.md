@@ -1,21 +1,22 @@
-# O PROJETO
+# Formulários para Websites
 
-diversos modelos de formulários para uso pessoal e profissional.<br>
+Layouts de formulários para websites<br>
 
-Gostou de algum modelo e quer nos apoiar a continuar construindo layouts mais profissionais e atraentes?<br>
-💰 [Faça uma doação aqui! Aceitamos qualquer valor e todos os tipos de pagamentos.](https://www.paypal.com/donate?hosted_button_id=XVZYWM363NQZ8)
+Faça o clone do repositório para seu ambiente local.<br>
+💰 [Gostou e quer apoiar novos projetos? Faça sua doação aqui!](https://www.paypal.com/donate?hosted_button_id=XVZYWM363NQZ8)
 
-# CLONE O REPOSITÓRIO
+# Como Instalar
 
-1. Faça o clone deste repositório.
+1. Faça o clone do repositório
 
-`git clone https://github.com/fullstackdevelopers-br/formularios.git`
+**HTTPS**<br>
+> git clone https://github.com/ezequielsousa-devbr/formularios.git
+
+**GitHub CLI**<br>
+> gh repo clone ezequielsousa-devbr/formularios
 
 2. Acesse a pasta.
 
-`cd formularios/`
+> cd formularios/
 
-> Escolha os modelos que deseja trabalhar e modifique-os de acordo com o seu projeto.<br>
-
-## SCREENSHOTS
-Consulte os Readmes das pastas para ver como ficou os layouts.<br>
+> Escolha os modelos e os modifique de acordo com seu projeto.<br>
